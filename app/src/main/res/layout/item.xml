@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <CheckBox
+        android:id="@+id/chitem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@mipmap/ic_launcher"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三个人哥果然是"
+            />
+        <TextView
+            android:text="积分：2011"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.bawei.wangwenjie.wangwenji1504d20170717.AdView
+            android:id="@+id/adview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.bawei.wangwenjie.wangwenji1504d20170717.AdView>
+    </LinearLayout>
+</LinearLayout>
